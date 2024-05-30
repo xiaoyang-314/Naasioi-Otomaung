@@ -1,7 +1,3 @@
-Sure, here is a sample README file for your Naasioi Otomaung font website:
-
----
-
 # Naasioi Otomaung Font Website
 
 Welcome to the Naasioi Otomaung font website repository. This project aims to provide an online platform where users can explore, download, and use the Naasioi Otomaung font.
