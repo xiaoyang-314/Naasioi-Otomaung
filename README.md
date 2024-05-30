@@ -88,4 +88,3 @@ For questions, support, or more information, please contact:
 
 ---
 
-Feel free to modify this README to better fit your specific project needs.
