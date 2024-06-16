@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Transliteration</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button onclick="swapFont('regular')">Regular Font</button>
+            <button onclick="swapFont('ornamental')">Ornamental Font</button>
+        </div>
+        <div class="transliteration">
+            <textarea id="inputText" oninput="transliterate()" placeholder="Type here..."></textarea>
+            <div id="outputTextRegular" class="output regular-font"></div>
+            <div id="outputTextOrnamental" class="output ornamental-font"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
 
