@@ -10,12 +10,16 @@
 
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
 }
 
 .controls {
@@ -36,7 +40,7 @@ textarea {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
-    font-size: 16px; 
+    font-size: 16px;
     white-space: pre-wrap;
 }
 
@@ -47,5 +51,18 @@ textarea {
 
 .ornamental-font {
     font-family: 'OrnamentalFont', sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
+}
+
+.media {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.background-info {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    text-align: left;
 }
